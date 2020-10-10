@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://john123:john123@mern-backend-boilerplat.ui5lj.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
