@@ -1,10 +1,14 @@
 const express = require('express')
 const connectDB = require('./config/db')
+const cors = require('cors')
 
 const app = express()
 
 // Connect Database
 connectDB()
+
+// Enable cors
+app.use(cors({origin:true,credentials: true}));
 
 // Init Middleware
 app.use(express.json({
